@@ -1,0 +1,78 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4062a1 ;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.poema {
+    color:#000000;
+    background-color: #f0f5fc;
+    width: 500px;
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    font-style: italic;
+    
+}
+.conteudo{
+    display: flex;
+    
+    border: 3px solid #000000;
+}
+    
+.assunto{
+    background-color: #ffffff;
+    height: 150px;
+    width: 400px;
+    font-size: 17px;
+    border-radius: 80px;
+    justify-content: center;
+    display: flex;
+    
+    
+  
+}
+
+
+body{
+    background-color: #ffffff;
+}
+
+ul{
+    height: 350px;
+    width: 300px;
+    border-radius: 50px;
+    list-style: circle ; 
+    margin: 10px;
+    border: 3px solid #000000;
+}
+#menu {
+    background-color: #4062a1 ;
+    
+}
+
+ li {
+    background-color: #d4d8e4;
+    height: 30px;
+    border-radius: 50px;
+    flex-direction: column;
+    margin: 30px;
+    padding: 3px;
+
+}
+.melhores-frases{
+    background-color: #4062a1;
+    height: 50px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    font-size: 20px;
+    
+}
